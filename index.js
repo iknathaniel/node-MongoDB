@@ -2,7 +2,7 @@ const MongoClient = require('mongodb').MongoClient;
 const assert = require('assert').strict;
 
 const url = 'mongodb://localhost:27017/';
-const dbname = 'nucampsite';
+const dbname = 'nucampsite';//DB name
 
 MongoClient.connect(url, { useUnifiedTopology: true }, (err, client) => {
 
